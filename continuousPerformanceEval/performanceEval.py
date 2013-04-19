@@ -6,7 +6,7 @@ import git
 from bs4 import BeautifulSoup
 
 #Configuration
-baseDir = '/home/user/strebel/continuousPerformanceEval/'
+baseDir = '/path/to/continuousPerformanceEval/'
 githubAtomFeed = 'https://github.com/uzh/signal-collect/commits/master.atom'
 githubRepositories = ['git://github.com/uzh/signal-collect.git', 'git://github.com/uzh/signal-collect-graphs.git','git://github.com/uzh/signal-collect-evaluation.git']
 lastCommitFile = baseDir + 'lastCommitId'
